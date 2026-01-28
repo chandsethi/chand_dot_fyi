@@ -22,7 +22,3 @@ tweets:
     date: "2026-01-28 19:00"
     content: |
       Kind of weird in hindisight that apple/google didn't make it easy for apps to talk to each other. Pick address from swiggy and add address in amazon. Order blinkit from claude. (Saw that claude had Apple Reminders app as a simple toggle. That but more.)
-- id: "9999"
-  date: "2026-01-28 23:55"
-  content: |
-    Trying to tweet using a script
