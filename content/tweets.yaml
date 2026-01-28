@@ -3,21 +3,16 @@ tweets:
   - id: "1"
     date: "2026-01-28 10:30"
     content: |
-      No, you did not get redirected to my twitter profile. 
+      No, you did not get redirected to my twitter profile. This is a personal website.
       
     pinned: true
 
   - id: "2"
-    date: "2018-05-22 14:00"
+    date: "2026-01-28 14:00"
     content: |
       Big tech core: We want you to build exactly this. But we want you to propose it to us and take our approval. 
 
   - id: "3"
-    date: "2018-05-22 14:00"
+    date: "2026-01-28 14:00"
     content: |
-      Big tech core: We want you to build exactly this. But we want you to propose it to us and take our approval. 
-
-  - id: "4"
-    date: "2018-05-22 14:00"
-    content: |
-      Big tech core: We want you to build exactly this. But we want you to propose it to us and take our approval. 
+      Big tech core: Instead of solving it for a specific audience and doing it elegantly with a singular focus and long term view, we shall riddle it with 17 goals and it must scale to 100% of the universe, even if that means it's a lukewarm outcome overall

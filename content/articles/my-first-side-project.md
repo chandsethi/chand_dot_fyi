@@ -1,21 +1,12 @@
 ---
-title: "Working on a new side project"
+title: "Why this?"
 date: "2026-01-20T10:00:00Z"
 description: "Why I decided to build a Twitter clone for my personal site."
 ---
 
-# Why I'm building this
+Made this for three reasons:
+- Try antigravity. This site was opus 4.5 for planning, gemini flash 3 for execution (with some micromanagement)
+- I wanted somewhere I could write in public, with no engagement metrics
+- Everyone's vibe coding their personal website, mimicing an existing interface (alanagoyal - notes app, for example). I picked twitter bcs thats where my I spend 2h/day
 
-I've always loved the Twitter UI. It's clean, fast, and optimized for content consumption. 
 
-## The Vision
-I wanted a place where I could share short thoughts, highlights of things I've read, and longer articles without the friction of a heavy CMS.
-
-### What's next?
-- [x] Static shell
-- [x] Profile header
-- [x] Tweets tab
-- [ ] Articles rendering
-- [ ] Dark mode
-
-Stay tuned for more updates!
