@@ -23,12 +23,12 @@ tweets:
     content: |
       Kind of weird in hindisight that apple/google didn't make it easy for apps to talk to each other. Pick address from swiggy and add address in amazon. Order blinkit from claude. (Saw that claude had Apple Reminders app as a simple toggle. That but more.)
 
-  - id: "9999"
-    date: "2026-01-28 23:55"
-    content: |
-      Test from scriptable
-
   - id: "4666"
     date: "2026-01-29 00:06"
     content: |
-      trying to tweet from phone using a script
+      Trying to tweet from phone using siri shortcut + a script
+
+  - id: "4667"
+    date: "2026-01-29 00:07"
+    content: |
+      Test successful
