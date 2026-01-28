@@ -1,0 +1,23 @@
+# Date format: YYYY-MM-DD HH:mm (24hr)
+tweets:
+  - id: "1"
+    date: "2026-01-28 10:30"
+    content: |
+      No, you did not get redirected to my twitter profile. 
+      
+    pinned: true
+
+  - id: "2"
+    date: "2018-05-22 14:00"
+    content: |
+      Big tech core: We want you to build exactly this. But we want you to propose it to us and take our approval. 
+
+  - id: "3"
+    date: "2018-05-22 14:00"
+    content: |
+      Big tech core: We want you to build exactly this. But we want you to propose it to us and take our approval. 
+
+  - id: "4"
+    date: "2018-05-22 14:00"
+    content: |
+      Big tech core: We want you to build exactly this. But we want you to propose it to us and take our approval. 
