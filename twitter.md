@@ -44,3 +44,18 @@ Have pasted the desktop, tablet and mobile screenshots of twitter. These are to 
 - **Profile Shortcut**: Bottom-left profile switcher in desktop sidebar.
 - **AI Bot Integration**: Grok-like interface. 
 - **Tweet Actions**: Reply, Retweet, Like, Share icons on individual tweets.
+
+
+This is for a side project I was working on with a different AI. Its 99% done, I just need to change a few icon images. 
+
+1. Home icon: used in sidebar.js and bottomnav.js
+2. Chat/Message: used in sidebar.js & bottomNav.js 
+3. Left Arrow (Previous): Used to navigate chronological updates in RightSidebar.js
+4. Right Arrow (Next): Used to navigate chronological updates in RightSidebar.js
+
+I have added four SVGs in public/icons folder (arrow-left.svg, arrow-right.svg, house.svg, mail.svg). Replace the current home, chat/message, left and right arrow (these two only in now section in RightSidebar.js) with these SVGs. I hope you can 'fill' the house and mail image when they are in active state
+
+/Users/chandsethi/Desktop/chand_dot_fyi/twitter.md
+/Users/chandsethi/Desktop/chand_dot_fyi/ipad.png
+/Users/chandsethi/Desktop/chand_dot_fyi/mobile.png
+/Users/chandsethi/Desktop/chand_dot_fyi/desktop.png

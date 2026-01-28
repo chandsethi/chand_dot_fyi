@@ -30,7 +30,7 @@ export default function ChatView({ config }) {
           </div>
           <div className="details">
             <h3>Email</h3>
-            <p>chaand.sethi@gmail.com</p>
+            <p>chaand.sethi at gmail.com</p>
           </div>
         </a>
 
