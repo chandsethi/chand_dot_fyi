@@ -32,11 +32,12 @@ UI:
 Have pasted the desktop, tablet and mobile screenshots of twitter. These are to help you with layout and UI components. There could be several things that are not valid for us, like search button, tweet CTA, AI bot, or the profile shortcut at bottom left in desktop etc. ignore them. 
 
 
-Future: 
-- **Followers/Following Count**: Fetch and display real counts from Twitter API.
+- **Highlights**: Add back the highlights feature with a better library for React 19.
+- **Bookmarks**: List of curated articles/blogs with clickable previews and comments.
+- **Bookmark Sections**: Grouping bookmarks by category (e.g., "tech reads", "design reads").
 - **Real Like Button**: Tracking likes (likely requires a backend or simplified service).
 - **Dark Mode**: Toggle for Twitter's dim/lights-out themes.
-- **Bookmark Sections**: Grouping bookmarks by category (e.g., "tech reads", "design reads").
+- **Followers/Following Count**: Fetch and display real counts from Twitter API.
 - **Media & Likes Tabs**: Re-enabling these with appropriate content.
 - **Search Functionality**: Sidebar search bar.
 - **Tweet CTA/Post Button**: Sidebar action button.

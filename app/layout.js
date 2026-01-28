@@ -4,6 +4,7 @@ import RightSidebar from "@/components/RightSidebar";
 import BottomNav from "@/components/BottomNav";
 import { Inter } from "next/font/google";
 import StyledJsxRegistry from "./registry";
+import { getNowData } from "@/lib/config";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -16,6 +17,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const nowData = getNowData();
+
   return (
     <html lang="en" className={inter.variable}>
       <body className={`${inter.variable}`}>
@@ -25,7 +28,7 @@ export default function RootLayout({ children }) {
             <main className="main-wrapper">
               {children}
             </main>
-            <RightSidebar />
+            <RightSidebar nowData={nowData} />
           </div>
           <BottomNav />
         </StyledJsxRegistry>

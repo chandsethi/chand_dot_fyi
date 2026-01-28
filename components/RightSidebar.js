@@ -1,5 +1,22 @@
 "use client";
-export default function RightSidebar() {
+import { useState } from 'react';
+
+export default function RightSidebar({ nowData = [] }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const currentMonth = nowData[currentIndex];
+
+  const handlePrev = () => {
+    if (currentIndex < nowData.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+
+  const handleNext = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+    }
+  };
+
   return (
     <aside className="right-sidebar">
       <div className="sidebar-container">
@@ -7,28 +24,40 @@ export default function RightSidebar() {
           <div className="header">
             <div className="title-group">
               <h2>What's happening</h2>
-              <span className="subtitle">January 2026</span>
+              {currentMonth && <span className="subtitle">{currentMonth.month}</span>}
             </div>
             <div className="nav-arrows">
-              <button aria-label="Previous month" className="arrow-btn" disabled>
+              <button
+                aria-label="Previous month"
+                className="arrow-btn"
+                onClick={handlePrev}
+                disabled={!nowData || currentIndex >= nowData.length - 1}
+              >
                 <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><g><path d="M14.582 2.25L5.832 11h16.918v2H5.832l8.75 8.75-1.414 1.414L1.252 11.25 1.25 11l.002-.25 11.916-11.914 1.414 1.414z"></path></g></svg>
               </button>
-              <button aria-label="Next month" className="arrow-btn">
+              <button
+                aria-label="Next month"
+                className="arrow-btn"
+                onClick={handleNext}
+                disabled={currentIndex === 0}
+              >
                 <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><g><path d="M9.418 2.25l1.414-1.414L22.748 12.75l.002.25-.002.25L10.832 25.164l-1.414-1.414 8.75-8.75H1.25v-2h16.918l-8.75-8.75z"></path></g></svg>
               </button>
             </div>
           </div>
 
           <div className="content">
-            <div className="item">
-              <p>Working on a new side project</p>
-            </div>
-            <div className="item">
-              <p>Reading 'Designing Data-Intensive Apps'</p>
-            </div>
-            <div className="item">
-              <p>Training for a half marathon</p>
-            </div>
+            {currentMonth ? (
+              currentMonth.updates.map((update, index) => (
+                <div key={index} className="item">
+                  <p>{update}</p>
+                </div>
+              ))
+            ) : (
+              <div className="item">
+                <p>No updates available.</p>
+              </div>
+            )}
           </div>
         </section>
       </div>

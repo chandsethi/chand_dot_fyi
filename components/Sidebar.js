@@ -15,7 +15,6 @@ export default function Sidebar() {
         <nav className="nav-menu">
           <NavItem href="/" icon={<HomeIcon />} label="Home" />
           <NavItem href="/chat" icon={<ChatIcon />} label="Chat" />
-          <NavItem href="/bookmarks" icon={<BookmarkIcon />} label="Bookmarks" />
         </nav>
       </div>
 
@@ -108,7 +107,4 @@ const HomeIcon = () => (
 );
 const ChatIcon = () => (
   <svg viewBox="0 0 24 24" width="26.25" height="26.25" fill="currentColor"><g><path d="M1.75 3C1.06 3 .5 3.56.5 4.25v15.5c0 .69.56 1.25 1.25 1.25h20.5c.69 0 1.25-.56 1.25-1.25V4.25c0-.69-.56-1.25-1.25-1.25H1.75zm19.5 2L12 11.5 3.25 5h18zM3 7.06l8.47 6.23c.15.1.33.16.53.16s.38-.06.53-.16L21 7.06v11.44H3V7.06z"></path></g></svg>
-);
-const BookmarkIcon = () => (
-  <svg viewBox="0 0 24 24" width="26.25" height="26.25" fill="currentColor"><g><path d="M4 4.5C4 3.12 5.12 2 6.5 2h11C18.88 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.28 0-.5.22-.5.5v15.44l6-4.29 6 4.29V4.5c0-.28-.22-.5-.5-.5h-11z"></path></g></svg>
 );
