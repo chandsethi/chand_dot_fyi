@@ -32,7 +32,14 @@ export default function ProfileHeader({ config, activeTab, onTabChange }) {
         </div>
 
         <div className="action-container">
-          <button className="follow-btn">Follow</button>
+          <a
+            href={`https://x.com/${config.username}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="follow-btn"
+          >
+            Follow
+          </a>
         </div>
 
         <div className="bio-container">
@@ -118,6 +125,10 @@ export default function ProfileHeader({ config, activeTab, onTabChange }) {
           font-weight: 700;
           font-size: 15px;
           transition: background-color 0.2s;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
         }
         .follow-btn:hover {
           background-color: #272c30;
