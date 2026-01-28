@@ -16,3 +16,9 @@ tweets:
     date: "2026-01-28 14:00"
     content: |
       Big tech core: Instead of solving it for a specific audience and doing it elegantly with a singular focus and long term view, we shall riddle it with 17 goals and it must scale to 100% of the universe, even if that means it's a lukewarm outcome overall
+
+
+  - id: "4"
+    date: "2026-01-28 19:00"
+    content: |
+      Kind of weird in hindisight that apple/google didn't make it easy for apps to talk to each other. Pick address from swiggy and add address in amazon. Order blinkit from claude. (Saw that claude had Apple Reminders app as a simple toggle. That but more.)
