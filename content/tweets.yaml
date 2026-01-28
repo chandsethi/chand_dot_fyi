@@ -27,3 +27,8 @@ tweets:
     date: "2026-01-28 23:55"
     content: |
       Test from scriptable
+
+  - id: "4666"
+    date: "2026-01-29 00:06"
+    content: |
+      trying to tweet from phone using a script
