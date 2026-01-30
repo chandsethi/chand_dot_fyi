@@ -32,3 +32,8 @@ tweets:
     date: "2026-01-29 00:07"
     content: |
       Test successful
+
+  - id: "9545"
+    date: "2026-01-30 17:50"
+    content: |
+      doc/deck editing tip: assume you will get 1/4th the time to present. which slides will you skip? skip them.
