@@ -37,3 +37,8 @@ tweets:
     date: "2026-01-30 17:50"
     content: |
       doc/deck editing tip: assume you will get 1/4th the time to present. which slides will you skip? skip them.
+
+  - id: "7860"
+    date: "2026-02-07 18:02"
+    content: |
+      Theory comes before data. Don't use data to theorize. Come up with a theory and seek data to improve it. 
