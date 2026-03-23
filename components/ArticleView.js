@@ -149,6 +149,20 @@ export default function ArticleView({ article, config, onBack }) {
                 .article-body :global(p) {
                     margin-bottom: 16px;
                 }
+                .article-body :global(ol),
+                .article-body :global(ul) {
+                    padding-left: 24px;
+                    margin-bottom: 16px;
+                }
+                .article-body :global(ol) {
+                    list-style: decimal;
+                }
+                .article-body :global(ul) {
+                    list-style: disc;
+                }
+                .article-body :global(li) {
+                    margin-bottom: 8px;
+                }
                 .article-body :global(pre) {
                     background: #0f1419;
                     color: white;
