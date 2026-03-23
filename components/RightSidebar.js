@@ -3,18 +3,18 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 export default function RightSidebar({ nowData = [] }) {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(nowData.length > 0 ? nowData.length - 1 : 0);
   const currentMonth = nowData[currentIndex];
 
   const handlePrev = () => {
-    if (currentIndex < nowData.length - 1) {
-      setCurrentIndex(currentIndex + 1);
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
     }
   };
 
   const handleNext = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
+    if (currentIndex < nowData.length - 1) {
+      setCurrentIndex(currentIndex + 1);
     }
   };
 
@@ -32,7 +32,7 @@ export default function RightSidebar({ nowData = [] }) {
                 aria-label="Previous month"
                 className="arrow-btn"
                 onClick={handlePrev}
-                disabled={!nowData || currentIndex >= nowData.length - 1}
+                disabled={!nowData || currentIndex === 0}
               >
                 <Image src="/images/arrow-left.svg" alt="Previous" width={18} height={18} priority />
               </button>
@@ -40,7 +40,7 @@ export default function RightSidebar({ nowData = [] }) {
                 aria-label="Next month"
                 className="arrow-btn"
                 onClick={handleNext}
-                disabled={currentIndex === 0}
+                disabled={currentIndex >= nowData.length - 1}
               >
                 <Image src="/images/arrow-right.svg" alt="Next" width={18} height={18} priority />
               </button>
