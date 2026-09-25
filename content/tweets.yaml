@@ -41,4 +41,9 @@ tweets:
   - id: "7860"
     date: "2026-02-07 18:02"
     content: |
-      Theory comes before data. Don't use data to theorize. Come up with a theory and seek data to improve it. 
+      Theory comes before data. Don't use data to theorize. Come up with a theory and seek data to improve it.
+
+  - id: "3724"
+    date: "2026-09-26 02:24"
+    content: |
+      just a few months back I was fiddling with scripts to tweet here from my phone. now it’s a DM to my agent
